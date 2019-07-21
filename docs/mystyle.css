@@ -27,11 +27,50 @@ a:active {
 
 
 body {
-    background-color: blue;
-   
+    background-image: linear-gradient(to bottom right, rgb(28, 168, 168) , pink);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-size: auto
+}
+    @media screen and (max-width: 750px) {
+    body {
+        background-image: linear-gradient(to bottom right, rgb(28, 168, 168) , pink);
+    }
 }
 
+h1 {
+        
+ color: rgb(255, 255, 255); 
+ margin-left: 50px;
+ margin-top: 25px; 
+ margin-bottom: 25px;
+        }
+    
+@media screen and (max-width: 950px) {
+h1 {
+        
+  font-size: 200%;
+  margin-bottom: 10px;
+        }
+    }  
+
+h2 {
+    
+  margin-left: 50px;
+  margin-top: 0%;
+    }
+@media screen and (max-width: 950px) {
+h2 {
+    
+    font-size: 140%;
+    }
+}
  
+
+
 div1 {
   display: grid;
   justify-content: center;
@@ -70,34 +109,12 @@ div {
     font-size: 4.3vw;
 }  
 
-h1 {
-        
- color: rgb(255, 255, 255); 
- margin-left: 50px;
- margin-top: 25px; 
- margin-bottom: 25px;
-        }
-    
-@media screen and (max-width: 950px) {
-h1 {
-        
-  font-size: 200%;
-  margin-bottom: 10px;
-        }
-    }    
+  
     
     
 
-h2 {
+ 
     
-  margin-left: 50px;
-  margin-top: 0%;
-    }    
-    
-h3 {
-    
-  margin-left: 50px;
-  margin-top: 0%;
-    }  
+
 
         
