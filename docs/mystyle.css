@@ -1,4 +1,4 @@
-<!-- link -->
+
 
 a:link {
     color: white; 
@@ -24,7 +24,7 @@ a:active {
     text-decoration: none;
 }
 
-<!-- background -->
+
 
 body {
     background-image: linear-gradient(to bottom right, rgb(28, 168, 168) , pink);
