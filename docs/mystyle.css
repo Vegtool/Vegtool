@@ -28,6 +28,8 @@ a:active {
 
 body {
     background-image: linear-gradient(to bottom right, rgb(28, 168, 168) , pink);
+    width: 100vw;
+    height: 100vw;   
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin-left: 10px;
