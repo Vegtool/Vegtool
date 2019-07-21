@@ -68,6 +68,19 @@ h2 {
     font-size: 140%;
     }
 }
+
+h3 {
+    
+  margin-left: 50px;
+  margin-top: 0%;
+  color: rgb(255, 255, 255);
+    }
+@media screen and (max-width: 950px) {
+h3 {
+    
+    font-size: 140%;
+    }
+}
  
  div {
     
