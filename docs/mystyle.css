@@ -69,7 +69,13 @@ h2 {
     }
 }
  
-
+ div {
+    
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    font-size: 4.3vw;
+}  
 
 div1 {
   display: grid;
@@ -101,13 +107,7 @@ div1 {
   margin-bottom: 10%;
   color:whitesmoke;
 
-div {
-    
-    border-radius: 5px;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 10px;
-    font-size: 4.3vw;
-}  
+   
 
   
     
