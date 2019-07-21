@@ -27,23 +27,12 @@ a:active {
 
 
 body {
-    background-image: linear-gradient(to bottom right, rgb(28, 168, 168) , pink);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    background-size: auto
+    background-color: blue;
+   
 }
 
-    @media screen and (max-width: 750px) {
-    body {
-        background-image: linear-gradient(to bottom right, rgb(28, 168, 168) , pink);
-      background-attachment: fixed;
-      background-size:100vw 100vh;
-      
-    }
-}
+ 
+
 
 
 
